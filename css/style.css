@@ -1,8 +1,11 @@
+body{
+    margin: 0;
+}
+
 .containers{
     background-color:navajowhite ;
     display:grid;
     height: 100vh;
-    gap:5px;
     grid-template-columns:- auto ;
     grid-template-rows: 12% 10% auto 10%;
     grid-template-areas: 
@@ -61,7 +64,7 @@ nav a{
     width: 25%;
     background-color: white;
     margin: auto;
-    background-image:url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
+    background-image: url(../img/food/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg);
 }
 
 #A2 {
@@ -69,6 +72,7 @@ nav a{
     width: 25%;
     background-color: white;
     margin: auto;
+    background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
 }
 
 #A3 {
@@ -76,4 +80,5 @@ nav a{
     width: 25%;
     background-color: white;
     margin: auto;
+    background-image: url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
 }
