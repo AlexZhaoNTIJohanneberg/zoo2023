@@ -1,4 +1,4 @@
-#container1{
+.container{
     display:grid;
     height: 100vh;
     gap:5px;
