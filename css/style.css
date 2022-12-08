@@ -50,19 +50,23 @@ nav a{
     align-items: center;
 }
 
-.indexA{
+.Articles{
     border-radius: 10px;
     border-color:lightslategray;
     border-style:solid;
-    background-position-x: 78%;
+    background-position-x: center;
     background-position-y: center;
     background-size: cover;
 }
 
+
+/* Index  */
+
+
+
 #A1 {
     height: 100%;
     width: 25%;
-    background-color: white;
     margin: auto;
     background-image: url(../img/food/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg);
 }
@@ -70,7 +74,6 @@ nav a{
 #A2 {
     height: 100%;
     width: 25%;
-    background-color: white;
     margin: auto;
     background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
 }
@@ -78,7 +81,59 @@ nav a{
 #A3 {
     height: 100%;
     width: 25%;
-    background-color: white;
+    background-position-x: 78%;
     margin: auto;
     background-image: url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
+}
+
+
+
+/* Sida 2 */
+
+#S2A1 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
+}
+
+#S2A2 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
+}
+
+#S2A3 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
+}
+
+#S2A4 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
+}
+
+#S2A5 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
+}
+
+#S2A6 {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    background-image: url();
+    background-color: white;
 }
