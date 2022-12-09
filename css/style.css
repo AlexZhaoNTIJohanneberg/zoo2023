@@ -1,9 +1,9 @@
 body{
     margin: 0;
+    background-color:navajowhite ;
 }
 
 .containers{
-    background-color:navajowhite ;
     display:grid;
     height: 100vh;
     grid-template-columns:- auto ;
@@ -17,13 +17,23 @@ body{
 
 header{
     grid-area: hd;
+    display: flex;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 3rem;
 }
 
 nav{
     grid-area: nav;
     display:flex;
-    padding-left: 30%;
-    padding-right: 30%;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin: 10px;
 }
 
 main{
@@ -39,19 +49,23 @@ footer{
 
 
 nav a{
-    height:10px;
-    width: 50px;
-    margin:auto;
-    margin-left: 12%;
-    margin-right: 12% ;
-    flex: 1;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(218, 166, 97);
+    color: black;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 10px;
+    margin-right: 140px;
+    align-items: stretch;
+    justify-content: stretch;
+    
 }
 
-.Articles{
-    border-radius: 10px;
+a:hover{
+    background-color: rgb(154, 98, 41);
+}
+
+.Articles1{
+    border-radius: 5px;
     border-color:lightslategray;
     border-style:solid;
     background-position-x: center;
@@ -61,7 +75,6 @@ nav a{
 
 
 /* Index  */
-
 
 
 #A1 {
@@ -89,6 +102,20 @@ nav a{
 
 
 /* Sida 2 */
+
+.Articles2{
+    border-radius: 5px;
+    border-color:lightslategray;
+    border-style:solid;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    align-items:;
+}
+
+#mn2 {
+    flex-flow: wrap;
+}
 
 #S2A1 {
     height: 100%;
