@@ -1,11 +1,35 @@
 body{
     margin: 0;
-    background-color:navajowhite ;
+    background-color:#FDF4E4 ;
 }
 
+
+h1 {
+    background-color: #FFEFD9;
+    padding: 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(34, 34, 34);
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0px; 
+}
+
+.h3sn3txt{
+    padding: 20px;
+}
+
+.psn3txt{
+    padding-top:20px;
+}
+
+
 .containers{
-    display:grid;
     height: 100vh;
+    display:grid;
     grid-template-columns:- auto ;
     grid-template-rows: 12% 10% auto 10%;
     grid-template-areas: 
@@ -18,149 +42,232 @@ body{
 header{
     grid-area: hd;
     display: flex;
-}
-
-h1 {
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 10px;
-    margin-left: 40px;
-    font-size: 3rem;
+    border-style: solid;
+    border-color: rgb(34, 34, 34);
+    border-width: 1px;
 }
 
 nav{
     grid-area: nav;
     display:flex;
-    justify-content: flex-end;
-    align-items: stretch;
-    margin: 10px;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: rgb(34, 34, 34);
+    border-width: 1px;
 }
 
 main{
+    background-color: white;
     grid-area: mn;
+    border-style: solid;
+    border-color: rgb(34, 34, 34);
+    border-width: 1px;
     padding: 40px;
     display:flex;
 }
 
 footer{
+    border-style: solid;
+    border-color: rgb(34, 34, 34);
+    border-width: 1px;
     grid-area: ft;
 }
 
 
 
-nav a{
-    background-color: rgb(218, 166, 97);
-    color: black;
+a{
+    color: rgb(34, 34, 34);
+    grid-area: nav;
     border-radius: 5px;
     font-size: 2rem;
-    padding: 10px;
-    margin-right: 140px;
-    align-items: stretch;
-    justify-content: stretch;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
 a:hover{
-    background-color: rgb(154, 98, 41);
+    background-color: rgb(218, 166, 97);
+}
+
+
+/* Index  */
+
+#mn1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .Articles1{
-    border-radius: 5px;
-    border-color:lightslategray;
+    margin: auto;
+    border-radius: 8px;
+    border-color:#E8CE92;
     border-style:solid;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
 }
 
-
-/* Index  */
-
-
 #A1 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url(../img/food/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg);
+    height: 30%;
+    width: 60%;
+    
+    background-image: url(../img/msc/shawnanggg-nmpW_WwwVSc-unsplash.jpg);
 }
 
 #A2 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    height: 45%;
+    width: 45%;
+    background-position-x: 78%;
+    background-image: url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 #A3 {
-    height: 100%;
-    width: 25%;
-    background-position-x: 78%;
-    margin: auto;
-    background-image: url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
+    height: 50%;
+    width: 40%;
+    background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 
 
 /* Sida 2 */
 
-.Articles2{
-    border-radius: 5px;
-    border-color:lightslategray;
-    border-style:solid;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    align-items:;
+#mn2 {
+    display:grid;
+    margin:0px;
+    height: 100vh;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "sn1 sn2 sn3";
 }
 
-#mn2 {
-    flex-flow: wrap;
+.sn{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Articles2{
+    margin: 10px;
+    height: 33%;
+    width: 80%;
+    background-color: #E8D792;
+    border-radius: 3px;
+    border-color:#E8CE92;
+    border-style:solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content:baseline;
+    align-items:center;
+    
+
+}
+
+.mattext{
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.789);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+h3{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    position: relative;
 }
 
 #S2A1 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/mike-PxJ9zkM2wdA-unsplash.jpg);
+    background-position-x: center;
+    background-position-y: 60%;
+    background-size:cover;
 }
 
 #S2A2 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg);
+    background-position-x: center;
+    background-position-y: 70%;
+    background-size:cover;
 }
 
 #S2A3 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    background-position-x: 30%;
+    background-position-y: 70%;
+    background-size:cover;
 }
 
+
 #S2A4 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/humphrey-muleba-jABXuTS1azc-unsplash.jpg);
+    background-position-x: 30%;
+    background-position-y: 30%;
+    background-size:cover;
 }
 
 #S2A5 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/kobby-mendez-q54Oxq44MZs-unsplash.jpg);
+    background-position-x: 30%;
+    background-position-y: 40%;
+    background-size:cover;
 }
 
 #S2A6 {
-    height: 100%;
-    width: 25%;
-    margin: auto;
-    background-image: url();
-    background-color: white;
+    background-image: url(../img/food/irene-kredenets-tVs-nga-tpo-unsplash.jpg);
+    background-position-x: 30%;
+    background-position-y: 100%;
+    background-size:cover;
+}
+
+#S2A7 {
+    height: 50%;
+    width: 80%;
+    margin: 10px;
+    padding-top: 50px;
+    background-color: rgb(255, 248, 236);
+    border-radius: 3px;
+    border-color:#E8CE92;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+
+#S2A8 {
+    height: 50%;
+    width: 80%;
+    margin: 10px;
+    padding-top: 50px;
+    background-color: rgb(255, 248, 236);
+    border-radius: 3px;
+    border-color:#E8CE92;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
 }
