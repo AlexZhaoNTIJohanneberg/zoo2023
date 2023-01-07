@@ -6,7 +6,7 @@ body{
 
 h1 {
     background-color: #FFEFD9;
-    padding: 24px;
+    padding: 19px;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(34, 34, 34);
@@ -30,8 +30,8 @@ h2{
 .containers{
     height: 100vh;
     display:grid;
-    grid-template-columns:- auto ;
-    grid-template-rows: 12% 10% auto 10%;
+    grid-template-columns: auto ;
+    grid-template-rows: 95px 80px auto 80px;
     grid-template-areas: 
     "hd"
     "nav"
@@ -47,6 +47,7 @@ header{
     border-style: solid;
     border-color: rgb(34, 34, 34);
     border-width: 1px;
+    height: 95px;
 }
 
 nav{
@@ -56,6 +57,7 @@ nav{
     border-style: solid;
     border-color: rgb(34, 34, 34);
     border-width: 1px;
+    height:80px;
 }
 
 main{
@@ -136,7 +138,6 @@ a:hover{
 }
 
 
-
 /* Sida 2 */
 
 #mn2 {
@@ -149,7 +150,7 @@ a:hover{
     "sn1 sn2 sn3";
 }
 
-.sn{
+.sn2{
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -270,4 +271,116 @@ p{
     flex-direction: column;
     justify-content:baseline;
     align-items: center;
+}
+
+
+/* sida 3 */
+
+.rubriks3{
+    font-size: 1.7rem;
+    padding-left: 50px;
+}
+
+#container3 {
+    height:200vh;
+}
+
+#mn3{
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "sn1"
+    "sn2"; */
+}
+
+.s3sn{
+    background-color:rgb(255, 248, 236);
+    border-radius: 3px;
+    border-color:#E8CE92;
+    border-style:solid;
+    margin: 30px;
+    height: 90%;
+    
+}
+
+#s3sn1{
+    display: grid;
+    grid-template-columns: 15% auto 15% auto 15% auto;
+    grid-template-rows: repeat(3,33%);
+    grid-template-areas: 
+    "a1 a2 a3 a4 a5 a6"
+    "a7 a8 a9 a10 a11 a12"
+    "a13 a14 a15 a16 a17 a18";
+}
+
+#s3sn2{
+    grid-area: sn2;
+}
+
+.s3txt{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E8D792;
+    margin: 20px;
+    margin-left: 0px;
+    border-left: none;
+    border-right: none;
+}
+
+.s3img{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position-y: 80%;
+    margin:20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #E8CE92;
+}
+
+#s3img1{
+    grid-area: a1;
+    background-image: url(../img/persons/avatar-1b1afc16e9bc79edbb292d32abbc2a86.jpg);
+}
+
+#s3img2{
+    grid-area: a3;
+    background-image: url(../img/persons/avatar-f5570c089ffac9de2094c30ee7f4304d.jpg);
+}
+#s3img3{
+    grid-area: a5;
+    background-image: url(../img/persons/avatar-7e6c3ea471a1ac6911e35c6b3fa46870.jpg);
+}
+#s3img4{
+    grid-area: a7;
+    background-image: url(../img/persons/avatar-aea3441ddc1173c3b63794fe1ebcce0e.jpg);
+}
+#s3img5{
+    grid-area: a9;
+    background-image: url(../img/persons/avatar-23fdc1d1c52f710520d659f56a264b40.jpg);
+}
+#s3img6{
+    grid-area: a11;
+    background-image: url(../img/persons/avatar-6eff317c04c60419d06b2f4b0323eef0.jpg);
+}
+
+#s3img7{
+    grid-area: a13;
+    background-image: url(../img/persons/avatar-99f7486ac54be1e7361b996e341e1090.jpg);
+}
+
+#s3img8{
+    grid-area: a15;
+    background-image: url(../img/persons/avatar-a4d4b8b36e435311d8e7e13a8e207118.jpg);
+}
+
+#s3img9{
+    grid-area: a17;
+    background-image: url(../img/persons/avatar-a23eed54c62b7e55dea7606998af0c9a.jpg);
 }
