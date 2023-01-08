@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    /* background-color:rgb(253, 243, 227) ; */
     background-image: url(../img/msc/joshua-bartell-6vvIBTvL90A-unsplash\ \(1\).jpg);
     background-size: cover;
 }
@@ -122,16 +121,12 @@ a:hover{
     width: 45%;
     background-position-x: 78%;
     background-image: url(../img/animals/michael-payne-a9NQ6z1zqro-unsplash.jpg);
-    /* border-bottom-right-radius: 0px;
-    border-top-left-radius: 0px; */
 }
 
 #A3 {
     height: 50%;
     width: 40%;
     background-image: url(../img/food/chad-montano-MqT0asuoIcU-unsplash.jpg);
-    /* border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px; */
 }
 
 
@@ -166,7 +161,6 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    justify-content:baseline;
     align-items:center;
     
 
@@ -251,7 +245,6 @@ p{
     border-style:solid;
     display: flex;
     flex-direction: column;
-    justify-content:baseline;
     align-items: center;
 }
 
@@ -266,7 +259,6 @@ p{
     border-style:solid;
     display: flex;
     flex-direction: column;
-    justify-content:baseline;
     align-items: center;
 }
 
@@ -286,13 +278,6 @@ p{
 #mn3{
     display: flex;
     flex-direction: column;
-    /* display: grid;
-    height: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: 
-    "sn1"
-    "sn2"; */
 }
 
 .s3sn{
@@ -396,7 +381,6 @@ p{
     margin-left: 40px;
     display: flex;
     flex-direction: column;
-    align-items: bottom;
     justify-content: center;
     border-style: solid;
     border-width: 3px;
